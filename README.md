@@ -9,7 +9,7 @@ This is an installer that you can put into your projects to allow people to easi
 Eeverything you need to know is in [the wiki](https://github.com/Wamy-Dev/easyrequirements/wiki).
 
 ## Can I use this on linux or mac?
-Yes. If on Windows use the .bat version. If on linux or mac use the .sh version (to be released soon).
+Yes. If on Windows use the .bat version. If on linux or mac use the .sh version.
 
 
 
