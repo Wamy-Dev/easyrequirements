@@ -11,6 +11,9 @@ Eeverything you need to know is in [the wiki](https://github.com/Wamy-Dev/easyre
 ## Can I use this on linux or mac?
 Yes. If on Windows use the .bat version. If on linux or mac use the .sh version.
 
+
+
+![logo](https://i.imgur.com/xAtVYL1.jpg)
 ##### These scripts were made by me, Wamy.
 ##### If you want to contact me: [My personal contact page](https://homeonacloud.com/pages/contactme.html)
 ##### If you want to donate to show your thanks: [My personal donation page](https://homeonacloud.com/pages/donate.html)
