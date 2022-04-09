@@ -1,4 +1,7 @@
 #!/bin/bash
+printf '\e[8;20;110t'
+stty rows 110
+stty cols 20
 echo '     ______                 ____                   _                                __        __       __ '
 echo '    / ____/___ ________  __/ __ \___  ____ ___  __(_)_______  ____ ___  ___  ____  / /______ / /__  __/ /_'
 echo '   / __/ / __  / ___/ / / / /_/ / _ \/ __ \/ / / / / ___/ _ \/ __ \__ \/ _ \/ __ \/ __/ ___// __/ \/_/ __/'
@@ -9,7 +12,7 @@ echo This will install any python files needed by the program. Make sure you hav
 echo -n "Would you like to install the requirements of this program? Y or N:"
 read  -r answer
 if [ "$answer" != "${answer#[YyYesyes]}" ] ;then 
-  pip install -r "path to requirements.txt"
+  pip install -r "./requirements.txt"
   echo All packages installed.
   read -r -p "Wait 30 seconds or press any key to continue immediately" -t 30 -n 1 -s
 else
