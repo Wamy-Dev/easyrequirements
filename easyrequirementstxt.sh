@@ -12,7 +12,7 @@ echo This will install any python files needed by the program. Make sure you hav
 echo -n "Would you like to install the requirements of this program? Y or N:"
 read  -r answer
 if [ "$answer" != "${answer#[YyYesyes]}" ] ;then 
-  pip install -r "./requirements.txt"
+  pip install -r "path to requirements.txt"
   echo All packages installed.
   read -r -p "Wait 30 seconds or press any key to continue immediately" -t 30 -n 1 -s
 else
